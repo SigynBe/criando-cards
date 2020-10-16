@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64A58B08253A5DC70011491D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A58B07253A5DC70011491D /* AppDelegate.swift */; };
+		64A58B0A253A5DC70011491D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A58B09253A5DC70011491D /* SceneDelegate.swift */; };
+		64A58B0C253A5DC70011491D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A58B0B253A5DC70011491D /* ViewController.swift */; };
+		64A58B0F253A5DC70011491D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A58B0D253A5DC70011491D /* Main.storyboard */; };
+		64A58B12253A5DC70011491D /* criando_cards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64A58B10253A5DC70011491D /* criando_cards.xcdatamodeld */; };
+		64A58B14253A5DC80011491D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A58B13253A5DC80011491D /* Assets.xcassets */; };
+		64A58B17253A5DC80011491D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A58B15253A5DC80011491D /* LaunchScreen.storyboard */; };
+		64A58B22253A5DC80011491D /* criando_cardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A58B21253A5DC80011491D /* criando_cardsTests.swift */; };
+		64A58B2D253A5DC80011491D /* criando_cardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A58B2C253A5DC80011491D /* criando_cardsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64A58B1E253A5DC80011491D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64A58AFC253A5DC70011491D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A58B03253A5DC70011491D;
+			remoteInfo = "criando cards";
+		};
+		64A58B29253A5DC80011491D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64A58AFC253A5DC70011491D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A58B03253A5DC70011491D;
+			remoteInfo = "criando cards";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64A58B04253A5DC70011491D /* criando cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "criando cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A58B07253A5DC70011491D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64A58B09253A5DC70011491D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		64A58B0B253A5DC70011491D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64A58B0E253A5DC70011491D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64A58B11253A5DC70011491D /* criando_cards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = criando_cards.xcdatamodel; sourceTree = "<group>"; };
+		64A58B13253A5DC80011491D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64A58B16253A5DC80011491D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64A58B18253A5DC80011491D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A58B1D253A5DC80011491D /* criando cardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "criando cardsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A58B21253A5DC80011491D /* criando_cardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = criando_cardsTests.swift; sourceTree = "<group>"; };
+		64A58B23253A5DC80011491D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A58B28253A5DC80011491D /* criando cardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "criando cardsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A58B2C253A5DC80011491D /* criando_cardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = criando_cardsUITests.swift; sourceTree = "<group>"; };
+		64A58B2E253A5DC80011491D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64A58B01253A5DC70011491D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A58B1A253A5DC80011491D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A58B25253A5DC80011491D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64A58AFB253A5DC70011491D = {
+			isa = PBXGroup;
+			children = (
+				64A58B06253A5DC70011491D /* criando cards */,
+				64A58B20253A5DC80011491D /* criando cardsTests */,
+				64A58B2B253A5DC80011491D /* criando cardsUITests */,
+				64A58B05253A5DC70011491D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64A58B05253A5DC70011491D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64A58B04253A5DC70011491D /* criando cards.app */,
+				64A58B1D253A5DC80011491D /* criando cardsTests.xctest */,
+				64A58B28253A5DC80011491D /* criando cardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64A58B06253A5DC70011491D /* criando cards */ = {
+			isa = PBXGroup;
+			children = (
+				64A58B07253A5DC70011491D /* AppDelegate.swift */,
+				64A58B09253A5DC70011491D /* SceneDelegate.swift */,
+				64A58B0B253A5DC70011491D /* ViewController.swift */,
+				64A58B0D253A5DC70011491D /* Main.storyboard */,
+				64A58B13253A5DC80011491D /* Assets.xcassets */,
+				64A58B15253A5DC80011491D /* LaunchScreen.storyboard */,
+				64A58B18253A5DC80011491D /* Info.plist */,
+				64A58B10253A5DC70011491D /* criando_cards.xcdatamodeld */,
+			);
+			path = "criando cards";
+			sourceTree = "<group>";
+		};
+		64A58B20253A5DC80011491D /* criando cardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				64A58B21253A5DC80011491D /* criando_cardsTests.swift */,
+				64A58B23253A5DC80011491D /* Info.plist */,
+			);
+			path = "criando cardsTests";
+			sourceTree = "<group>";
+		};
+		64A58B2B253A5DC80011491D /* criando cardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64A58B2C253A5DC80011491D /* criando_cardsUITests.swift */,
+				64A58B2E253A5DC80011491D /* Info.plist */,
+			);
+			path = "criando cardsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64A58B03253A5DC70011491D /* criando cards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A58B31253A5DC80011491D /* Build configuration list for PBXNativeTarget "criando cards" */;
+			buildPhases = (
+				64A58B00253A5DC70011491D /* Sources */,
+				64A58B01253A5DC70011491D /* Frameworks */,
+				64A58B02253A5DC70011491D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "criando cards";
+			productName = "criando cards";
+			productReference = 64A58B04253A5DC70011491D /* criando cards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64A58B1C253A5DC80011491D /* criando cardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A58B34253A5DC80011491D /* Build configuration list for PBXNativeTarget "criando cardsTests" */;
+			buildPhases = (
+				64A58B19253A5DC80011491D /* Sources */,
+				64A58B1A253A5DC80011491D /* Frameworks */,
+				64A58B1B253A5DC80011491D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64A58B1F253A5DC80011491D /* PBXTargetDependency */,
+			);
+			name = "criando cardsTests";
+			productName = "criando cardsTests";
+			productReference = 64A58B1D253A5DC80011491D /* criando cardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64A58B27253A5DC80011491D /* criando cardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A58B37253A5DC80011491D /* Build configuration list for PBXNativeTarget "criando cardsUITests" */;
+			buildPhases = (
+				64A58B24253A5DC80011491D /* Sources */,
+				64A58B25253A5DC80011491D /* Frameworks */,
+				64A58B26253A5DC80011491D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64A58B2A253A5DC80011491D /* PBXTargetDependency */,
+			);
+			name = "criando cardsUITests";
+			productName = "criando cardsUITests";
+			productReference = 64A58B28253A5DC80011491D /* criando cardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64A58AFC253A5DC70011491D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					64A58B03253A5DC70011491D = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					64A58B1C253A5DC80011491D = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 64A58B03253A5DC70011491D;
+					};
+					64A58B27253A5DC80011491D = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 64A58B03253A5DC70011491D;
+					};
+				};
+			};
+			buildConfigurationList = 64A58AFF253A5DC70011491D /* Build configuration list for PBXProject "criando cards" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64A58AFB253A5DC70011491D;
+			productRefGroup = 64A58B05253A5DC70011491D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64A58B03253A5DC70011491D /* criando cards */,
+				64A58B1C253A5DC80011491D /* criando cardsTests */,
+				64A58B27253A5DC80011491D /* criando cardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64A58B02253A5DC70011491D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A58B17253A5DC80011491D /* LaunchScreen.storyboard in Resources */,
+				64A58B14253A5DC80011491D /* Assets.xcassets in Resources */,
+				64A58B0F253A5DC70011491D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A58B1B253A5DC80011491D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A58B26253A5DC80011491D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64A58B00253A5DC70011491D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A58B0C253A5DC70011491D /* ViewController.swift in Sources */,
+				64A58B08253A5DC70011491D /* AppDelegate.swift in Sources */,
+				64A58B12253A5DC70011491D /* criando_cards.xcdatamodeld in Sources */,
+				64A58B0A253A5DC70011491D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A58B19253A5DC80011491D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A58B22253A5DC80011491D /* criando_cardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A58B24253A5DC80011491D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A58B2D253A5DC80011491D /* criando_cardsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64A58B1F253A5DC80011491D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64A58B03253A5DC70011491D /* criando cards */;
+			targetProxy = 64A58B1E253A5DC80011491D /* PBXContainerItemProxy */;
+		};
+		64A58B2A253A5DC80011491D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64A58B03253A5DC70011491D /* criando cards */;
+			targetProxy = 64A58B29253A5DC80011491D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64A58B0D253A5DC70011491D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A58B0E253A5DC70011491D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64A58B15253A5DC80011491D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A58B16253A5DC80011491D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64A58B2F253A5DC80011491D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64A58B30253A5DC80011491D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64A58B32253A5DC80011491D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42ZN9N6G82;
+				INFOPLIST_FILE = "criando cards/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Comrads.criando-cards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64A58B33253A5DC80011491D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42ZN9N6G82;
+				INFOPLIST_FILE = "criando cards/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Comrads.criando-cards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64A58B35253A5DC80011491D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42ZN9N6G82;
+				INFOPLIST_FILE = "criando cardsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Comrads.criando-cardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/criando cards.app/criando cards";
+			};
+			name = Debug;
+		};
+		64A58B36253A5DC80011491D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42ZN9N6G82;
+				INFOPLIST_FILE = "criando cardsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Comrads.criando-cardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/criando cards.app/criando cards";
+			};
+			name = Release;
+		};
+		64A58B38253A5DC80011491D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42ZN9N6G82;
+				INFOPLIST_FILE = "criando cardsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Comrads.criando-cardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "criando cards";
+			};
+			name = Debug;
+		};
+		64A58B39253A5DC80011491D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42ZN9N6G82;
+				INFOPLIST_FILE = "criando cardsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Comrads.criando-cardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "criando cards";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64A58AFF253A5DC70011491D /* Build configuration list for PBXProject "criando cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A58B2F253A5DC80011491D /* Debug */,
+				64A58B30253A5DC80011491D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64A58B31253A5DC80011491D /* Build configuration list for PBXNativeTarget "criando cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A58B32253A5DC80011491D /* Debug */,
+				64A58B33253A5DC80011491D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64A58B34253A5DC80011491D /* Build configuration list for PBXNativeTarget "criando cardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A58B35253A5DC80011491D /* Debug */,
+				64A58B36253A5DC80011491D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64A58B37253A5DC80011491D /* Build configuration list for PBXNativeTarget "criando cardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A58B38253A5DC80011491D /* Debug */,
+				64A58B39253A5DC80011491D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64A58B10253A5DC70011491D /* criando_cards.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64A58B11253A5DC70011491D /* criando_cards.xcdatamodel */,
+			);
+			currentVersion = 64A58B11253A5DC70011491D /* criando_cards.xcdatamodel */;
+			path = criando_cards.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64A58AFC253A5DC70011491D /* Project object */;
+}
